@@ -50,7 +50,7 @@ googleAnalytics = ""
     # logo = "logo.svg"
     # services = "Services"
     portfolio = "Work"
-    team="Team"
+    team="About"
 #    about = "About"
     contact = "Contact"
 
@@ -83,7 +83,7 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = ""
+    title = "Advanced Web Software Engineering"
     subtitle = ""
 
     [[params.services.row]]
@@ -103,7 +103,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Team leadership"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
   # Portfolio section
@@ -163,7 +163,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "About me"
     subtitle = ""
     description = ""
 
@@ -182,8 +182,7 @@ googleAnalytics = ""
       #   "Open Source [community management](#)"
       # ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """I am an experienced Full Stack Software Engineer, with 15 years of experience in building complex web applications for Swiss and the world-wide market."""
       social = [
         ["fa-twitter", "https://twitter.com/ivanjovanovic"],
         ["fa-linkedin", "https://www.linkedin.com/in/ivanjovanovic/"]

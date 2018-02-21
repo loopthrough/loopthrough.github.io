@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -321,7 +321,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 70px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
@@ -359,12 +359,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
