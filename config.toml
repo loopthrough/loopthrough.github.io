@@ -83,7 +83,7 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Advanced Web Software Engineering"
+    title = "Custom Web Software Engineering"
     subtitle = ""
 
     [[params.services.row]]
@@ -91,20 +91,17 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-paper-plane"
       title = "Concept design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      description = "With 15 years of experience accross different technical stacks and various project complexities from small prototypes to world-wide enterprise products, I feel confident making decisions which stand the challenge of time and constant change."
 
     [[params.services.row.list]]
     icon = "fa-file-code-o"
       title = "Solution implementation"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      description = "Having great ideas doesn't mean much if the execution is not matching. My expertise in both object-oriented and functional programming and both back end and front end development help me contribute maximum value to any team in a flexible way."
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Team leadership"
-      description= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      description= "Since 2009 working in the role of Senior Software Engineer. 3 years at Microsoft in the role of Senior Development Lead and Engineering Manager. I strive to understand business side very well and organize development towards achieving business goals with highest value while keeping long term sustainability of technical solutions."
 
   # Portfolio section
   [params.portfolio]
