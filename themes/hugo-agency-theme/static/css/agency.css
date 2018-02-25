@@ -664,7 +664,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 10px solid #fff;
 }
 
 .team-member p {
@@ -935,10 +935,12 @@ ul.social-buttons li a:active {
 ::-moz-selection {
     text-shadow: none;
     background: #a70500;
+    color: #fff;
 }
 
 ::selection {
     text-shadow: none;
+    color: #fff;
     background: #a70500;
 }
 
