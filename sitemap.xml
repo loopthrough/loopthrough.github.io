@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://loopthrough.ch/categories/</loc>
+    <loc>//loopthrough.ch/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://loopthrough.ch/tags/</loc>
+    <loc>//loopthrough.ch/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://loopthrough.ch/</loc>
+    <loc>//loopthrough.ch/</loc>
     <priority>0</priority>
   </url>
   
