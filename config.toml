@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://loopthrough.ch/"
+baseurl = "//loopthrough.ch/"
 languageCode = "en-us"
 title = "loopthrough GmbH"
 theme = "hugo-agency-theme"
@@ -23,7 +23,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+ #  favicon    = ""
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -182,7 +182,7 @@ googleAnalytics = ""
 
       experienceTitle = "Experience"
       experience = [
-        "2017 - 2018: Started loopthrough GmbH and helped different clients realise their ideas. Helped startup [Fuel Social](http://fuel.social) to implement first version of the idea of a real-time collaborative screenplay writing web application. Through collaboration with [panter.ch](https://panter.ch) participated in development of several online features for Globus Christmas offering and currently helping Migros Bank with implementation of the next generation of their internet banking offer.",
+        "2017 - 2018: Started loopthrough GmbH and helped different clients realise their ideas. Helped startup [Fuel Social](http://fuel.social) to implement first version of the idea of a real-time collaborative screenplay writing web application. Through collaboration with [panter.ch](https://panter.ch) participated in development of several online features for Globus Christmas offering and currently helping Migros Bank with setting up best practices on several of their client facing projects.",
 
         "2014 - 2017: Senior Development Lead and Engineering Manager at Microsoft Schweiz. Leading a team of highly skilled engineers on Microsoft Social Engagement project built for acquisition, analysis and presentation of social media trends for world-wide clients. Helped Microsoft CRM department to integrate newly acquired Swiss startup Netbreeze and establish new architecture and tech stack of the fronted side of the product.",
 
