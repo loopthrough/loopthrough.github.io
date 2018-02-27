@@ -18,13 +18,6 @@
             {{ with .position }}
             <h4>{{ . | markdownify }}</h4>
             {{ end }}
-            {{ with .reportsTo }}
-            <h5 class="report">Reports to {{ . | markdownify }}</h5>
-            {{ end }}
-
-            {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
-            {{ end }}
 
             {{ with .scope }}
             <ul>
@@ -45,6 +38,26 @@
             {{ end }}
 
           </div>
+        </div>
+        <div class="col-sm-8 col-xs-12 col">
+            <h3>{{ .skillsTitle | markdownify }}</h3>
+            {{ with .skills}}
+            <ul>
+            {{ range . }}
+            <li class="member-entry">{{ . | markdownify}}</li>
+            {{end}}
+            </ul>
+            {{end}}
+
+            <h3>{{ .experienceTitle | markdownify }}</h3>
+
+            {{with .experience}}
+              <ul>
+              {{ range . }}
+                <li class="member-entry">{{ . | markdownify}}</li>
+              {{end}}
+              </ul>
+            {{end}}
         </div>
       {{ end }}
     </div>

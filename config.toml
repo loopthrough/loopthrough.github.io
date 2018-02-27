@@ -48,7 +48,7 @@ googleAnalytics = ""
     brand = "loop://through"
     # Optional logo as brand stored in img/
     # logo = "logo.svg"
-    # services = "Services"
+    services = "Services"
     portfolio = "Work"
     team="About"
 #    about = "About"
@@ -75,7 +75,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "loopthrough is a belief that focus, commitment, expertise, respect and curiosity bring meaning into the value delivered to clients."
+    title = "<span class='highlight'>loopthrough</span> is about putting focus, commitment, expertise, curiosity, respect and fun into the value delivered to clients."
     subtitle = ""
     buttonText = "▼"
 
@@ -105,7 +105,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -159,7 +159,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "About me"
     subtitle = ""
     description = ""
@@ -171,6 +171,26 @@ googleAnalytics = ""
       img = "ivan.jpg"
       name = "Ivan Jovanovic"
       position = "Full Stack Software Engieer"
+
+      skillsTitle = "Skills"
+      skills = [
+        "Overall: Broad experience and interest in software engineering tools, processes, paradigms, techniques, practices and high-quality engineering culture",
+        "Backend: Golang, Java / Spring, Haskell",
+        "Frontend: JavaScript/TypeScript, React",
+        "Organizational: understanding business requirements, agile practices, team leadership, people management."
+      ]
+
+      experienceTitle = "Experience"
+      experience = [
+        "2017 - 2018: Started loopthrough GmbH and helped different clients realise their ideas. Helped startup [Fuel Social](http://fuel.social) to implement first version of the idea of a real-time collaborative screenplay writing web application. Through collaboration with [panter.ch](https://panter.ch) participated in development of several online features for Globus Christmas offering and currently helping Migros Bank with implementation of the next generation of their internet banking offer.",
+
+        "2014 - 2017: Senior Development Lead and Engineering Manager at Microsoft Schweiz. Leading a team of highly skilled engineers on Microsoft Social Engagement project built for acquisition, analysis and presentation of social media trends for world-wide clients. Helped Microsoft CRM department to integrate newly acquired Swiss startup Netbreeze and establish new architecture and tech stack of the fronted side of the product.",
+
+        "2009 - 2014: Worked at [local.ch](http://local.ch), one of the most visited web products in Switzerland. As senior developer in an agile environment I took different responsibilities. Participated in migration of the platform from PHP to Ruby on Rails, lead implementation of first version of local.ch customer center, participated in solving many architectural, scalability and usability problems on the platform.",
+
+        "2007 - 2009: Worked on back then one of the biggest social networks in Europe, tilllate.com. Implemented several prominent user facing features like full-text search of the content, personal user message wall."
+      ]
+
       #      reportsTo = "CTO"
 #      livesIn = "[Zürich, Switzerland](#some-maps-url)"
       # scope = [
@@ -215,8 +235,8 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact"
-    subtitle  = " "
+    title = ""
+    subtitle  = ""
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -238,61 +258,21 @@ googleAnalytics = ""
     # postURL = "https://example.com/mailout/"
 
     email = "ivan@loopthrough.ch"
+    name = "loopthrough GmbH"
+    street = "Neunbrunnenstrasse 118"
+    city = "8050, Zürich"
+    country = "Switzerland"
+    phone = "+41 (0)78 694 81 71"
 
-    # Success and error message overwrite for async contact form
-    thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Email *"
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Phone *"
-      warning = "Please enter your phone number."
-
-    [params.contact.form.message]
-      text = "Message *"
-      warning = "Please enter a message."
-
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
-
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    [[params.footer.social]]
+    [[params.social]]
       icon = "fa-twitter"
       link = "#"
       title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
-
-    [[params.footer.social]]
+    [[params.social]]
       icon = "fa-linkedin"
       link = "#"
       title = "LinkedIn"
 
-    # [[params.footer.quicklinks]]
-    #   text = "Privacy Policy"
-    #   link = "#"
-
-    # [[params.footer.quicklinks]]
-    #   text = "Terms of Use"
-    #   link = "#"
+  [params.footer]
+    enable = true

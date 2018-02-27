@@ -316,6 +316,12 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+header .intro-text .intro-heading .highlight {
+    background: #a70500;
+    color: #fff;
+    text-shadow: none;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -336,12 +342,15 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        
+    }
+
+    section h2.section-heading {
+        font-size: 26px;
     }
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -745,63 +754,14 @@ section#contact .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
-    margin-bottom: 25px;
+section#contact h4 {
+    color: #fff;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
+section#contact .contact-detail {
+    color: #fff;
 }
 
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #a70500;
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
-
-section#contact .text-success {
-    color: #ffffff;
-}
 
 footer {
     padding: 25px 0;
