@@ -5,7 +5,7 @@ title = "loopthrough GmbH"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-115005348-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "loopthrough GmbH"
-  description = "Web software Engieerig"
+  description = "Web software Engineerig"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -170,19 +170,19 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "ivan.jpg"
       name = "Ivan Jovanovic"
-      position = "Full Stack Software Engieer"
+      position = "Full Stack Software Engineer"
 
       skillsTitle = "Skills"
       skills = [
         "Overall: Broad experience and interest in software engineering tools, processes, paradigms, techniques, practices and high-quality engineering culture",
         "Backend: Golang, Java / Spring, Haskell",
-        "Frontend: JavaScript/TypeScript, React",
+        "Frontend: JavaScript/TypeScript, React, Vue",
         "Organizational: understanding business requirements, agile practices, team leadership, people management."
       ]
 
       experienceTitle = "Experience"
       experience = [
-        "2017 - 2018: Started loopthrough GmbH and helped different clients realise their ideas. Helped startup [Fuel Social](http://fuel.social) to implement first version of the idea of a real-time collaborative screenplay writing web application. Through collaboration with [panter.ch](https://panter.ch) participated in development of several online features for Globus Christmas offering and currently helping Migros Bank with setting up best practices on several of their client facing projects.",
+        "2017 - 2018: Started loopthrough GmbH and helped different clients realise their ideas. Helped startup [Fuel Social](http://fuel.social) to implement first version of the idea of a real-time collaborative screenplay writing web application. Through collaboration with [panter.ch](https://panter.ch) participated in development of several online features for Globus Christmas offering and currently helping Migros Bank with delivery of the next generation internet banking solution for their clients.",
 
         "2014 - 2017: Senior Development Lead and Engineering Manager at Microsoft Schweiz. Leading a team of highly skilled engineers on Microsoft Social Engagement project built for acquisition, analysis and presentation of social media trends for world-wide clients. Helped Microsoft CRM department to integrate newly acquired Swiss startup Netbreeze and establish new architecture and tech stack of the fronted side of the product.",
 
