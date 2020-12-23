@@ -90,8 +90,8 @@ googleAnalytics = "UA-115005348-1"
 
     [[params.services.row.list]]
       icon = "fa-paper-plane"
-      title = "Concept design"
-      description = "With 15 years of experience accross different technical stacks and various project complexities from small prototypes to world-wide enterprise products, I feel confident making decisions which stand the challenge of time and constant change."
+      title = "Architecture and software design"
+      description = "With 15 years of experience accross different technical stacks and various project complexities from small prototypes to world-wide enterprise products, I feel confident making decisions which stand the challenge of time and constant change. My passion for well-designed software and deep experience within different paradigms allows me to provide clean, maintainable solutions."
 
     [[params.services.row.list]]
     icon = "fa-file-code-o"
