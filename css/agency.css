@@ -298,7 +298,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 200px;
+    padding-top: 20px;
     padding-bottom: 100px;
 }
 
@@ -328,8 +328,8 @@ header .intro-text .intro-heading .highlight {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
@@ -601,6 +601,10 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }
+
+    section#services {
+        padding-top: 150px;
     }
 }
 
