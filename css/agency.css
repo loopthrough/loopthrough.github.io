@@ -7,7 +7,8 @@
 body {
     overflow-x: hidden;
     font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .text-muted {
@@ -19,12 +20,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
