@@ -45,9 +45,9 @@ googleAnalytics = "UA-115005348-1"
 
   # Navigation
   [params.navigation]
-    brand = "loop://through"
+    brand = "loopthrough"
     # Optional logo as brand stored in img/
-    # logo = "logo.svg"
+    logo = "logos/logo.png"
     services = "Services"
     portfolio = "Work"
     team="About"
