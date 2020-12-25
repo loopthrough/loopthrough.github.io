@@ -287,14 +287,25 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #000;
+    position: relative;
+}
+
+header::before {
+    content: "";
     background-attachment: scroll;
-    /* background-image: url(../img/header-bg.jpg); */
+    background-image: url(../img/connecting-dots.webp);
     background-position: center center;
     background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
 }
 
 header .intro-text {
@@ -565,6 +576,28 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+section#services {
+    position: relative;
+}
+
+section#services::before {
+    content: "";
+    background-attachment: scroll;
+    background-image: url(../img/connecting-dots.webp);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
 }
 
 @media(min-width:768px) {
