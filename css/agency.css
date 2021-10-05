@@ -373,7 +373,7 @@ header .intro-text .intro-heading .highlight {
 }
 
 section {
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 section h2.section-heading {
@@ -713,6 +713,7 @@ section#services::before {
 
 .flexbox-center {
   justify-content: center;
+    align-items: center;
 }
 
 .team-member {
@@ -789,7 +790,6 @@ aside .heading {
     text-transform: none;
     color: #777;
     margin-top: 20px;
-    margin-bottom: -40px;
 }
 
 section#contact {
